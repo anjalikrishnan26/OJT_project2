@@ -1,0 +1,72 @@
+*
+{
+	padding: 0px;
+	margin: 0px;
+
+}
+.bi
+{
+	background-image:url("../img/doc.jpg");
+	background-size:cover;
+}
+.menubar 
+{
+	background-color:rgba(0,0,0,0.7);
+	text-align:center;	
+}
+.menubar ul
+{
+	list-style:none;
+	display:inline-flex;
+	
+	padding:35px;
+}
+.menubar ul li a
+{
+	color:white;
+	text-decoration:none;
+	padding:10px;
+}
+.menubar ul li
+{
+	padding:15px;
+	
+}
+.menubar ul li a:hover
+{
+	background-color:#ff0000;
+	border-radius:10px;
+}
+.submenu
+{
+	display:none;
+	
+}
+.submenu ul
+{
+	display:block;
+	
+}
+.menubar ul li:hover .submenu
+{
+	display:block;
+	position:absolute;
+	border-radius:10px;
+	background-color:black;	
+}
+.submenu ul li
+{
+	border-bottom:2px solid red;
+}
+.head
+{
+	text-align: center;
+	background-color: rgba(0,0,0,0.7);
+	margin-top:15%;
+	margin-left: 20%;
+	width:50%;
+	padding: 80px;
+	color: white;
+	opacity: 0.9
+}
+	
